@@ -10,3 +10,67 @@ body {
 }
 
 /* Add styles here! */
+header {
+  margin: 45px 0;
+}
+
+.max-width-wrapper{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-chunk {
+  max-width: 300px;
+  padding: 0 27px;
+}
+
+h1{
+  margin-bottom: 45px;
+}
+
+strong{
+  color: hsl(160deg, 100%, 30%);
+}
+
+.indented-heading{
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  margin: 0;
+  margin-left: -45px;
+  padding: 18px 45px;
+  width: fit-content;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+  padding: 9px 27px;
+}
+
+main {
+  border-top: 8px solid hsl(0deg, 0%, 40%);
+  background-color: hsl(0deg, 0%, 60%);
+  padding: 54px 0;
+}
+
+/*  Tablet/Mobile */
+@media(max-width: 999px){
+
+  body {
+    margin: 0 9px;
+  }
+
+  .max-width-wrapper{
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .indented-heading{
+    margin-left: -27px;
+    padding-left: 27px;
+  }
+}
+
+
+
